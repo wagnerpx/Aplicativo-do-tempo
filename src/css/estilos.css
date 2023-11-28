@@ -5,6 +5,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    flex-direction: column;
 }
 
 .container {
@@ -12,10 +13,11 @@ body {
     color: #ffffff;
     max-width: 330px;
     text-align: center;
-    background-image: url("../images/background.png");
+    background-image: url("../images/background2.jpg");
     background-size: cover;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 50px;
+    margin: auto;
 }
 
 .busca {
@@ -88,4 +90,8 @@ body {
 .informacao-secundaria #humidade,
 .informacao-secundaria #velocidade-do-vento {
     color: green;
+}
+
+.footer {
+    margin-top: auto;
 }
